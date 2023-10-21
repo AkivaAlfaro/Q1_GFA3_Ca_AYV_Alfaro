@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+*{
+    padding: 0px; margin:0;
+    color: ghostwhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: gray;
+}
+
+/*Navbar starts*/
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100vw;
+    height: 4.5vh;
+    padding: 1.5vw;
+    border: 2px solid #14ff00;
+    text-align: center;
+    background-color: black;
+}
+.logo, .title, .pages{
+    display: inline-block;
+}
+.logo img{
+    border: 1px solid black;
+    height: 3.5vw;
+    width: 3.5vw;
+    border-radius: 50%;
+}
+.pages{
+    margin: 2.5vw;
+    margin-top: 1vh;
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+}
+.logo, .title{
+    float: left;
+    margin-left: 1vh;
+}
+.title{
+    margin-top: 1vh;
+    font-size: larger;
+}
+.pages a:hover{
+    padding: 3px 8px 3px 8px;
+    border: 1px solid white;
+    background-color:#14ff00;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+/*Navbar ends*/
+
+/*Footer starts*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    padding: 1vw;
+    text-align: center;
+    background-color: black;
+}
+.copyright{
+    float: left;
+}
+.socials a img{
+    margin-bottom: auto;
+    margin: 1vh;
+    background-color: white;
+    border: 0.05vw solid white;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.socials{
+    float: right;
+    margin-right: 15px;
+}
+.copyright, .socials{
+    display: inline-flex;
+}
+/*Footer ends*/
+
+/*Home starts*/
+body{
+    background-color: gray;
+}
+h1, p{
+    color: white;
+}
+.body{
+    display: flex;
+    margin: 10vw;
+    text-align: left;
+}
+.bannerimg img{
+    height: 60vh;
+    width: auto;
+}
+.bannerpara{
+    float: right;
+    margin-left: 5vw;
+    font-size: large; 
+}
+/*Home ends*/
+/*About Me starts*/
+.aboutme{
+    display:flex;
+    margin:1vw;
+    text-align: left;
+}
+.aboutimg img{
+    width: auto;
+    height: auto;
+}
+.interests{
+    float:right;
+    margin-left: 3vw;
+}
+/*About Me ends*/
+/*References starts*/
+.referencesbody{
+    margin:10vw;
+    text-align: left;
+}
+.referenceheading h1{
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.references{
+    margin-top: 5vw;
+    margin-left: 20vw;
+}
+.references ol li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin: 1vw;
+}
+/*References ends*/
